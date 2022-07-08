@@ -4,7 +4,8 @@
   "description": "An api for an ecommerce site",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js "
+    "start": "nodemon index.js ",
+    "build": "npm run build"
   },
   "author": "ebunola",
   "license": "ISC",
@@ -16,6 +17,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.3",
     "nodemon": "^2.0.16",
-    "stripe": "^9.1.0"
+    "stripe": "^9.1.0",
+    "npm-build": "0.0.1",
+    "build": "^0.1.4"
   }
 }
